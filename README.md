@@ -1,3 +1,10 @@
+# Install DNS SERVER
+```
+apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/script-install-access/main/install-dns-server.sh && chmod +x install-dns-server.sh && ./install-dns-server.sh.sh
+
+```
+
+
 # addip-dns
 
 ```
