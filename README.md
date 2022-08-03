@@ -4,10 +4,10 @@ apt update -y && apt install sudo && sudo apt install -y wget && sudo apt instal
 ```
 
 
-# addip-dns
+# setup addip-dns
 
 ```
-wget -O /usr/bin/net_manager https://raw.githubusercontent.com/vpnlegasi/addip-dns/main/client-dns-register.sh && chmod +x /usr/bin/net_manager && net_manager
+wget https://raw.githubusercontent.com/vpnlegasi/addip-dns/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 # Install Main DNS SERVER
