@@ -1,6 +1,6 @@
-# Install DNS SERVER
+# Install Main DNS SERVER
 ```
-apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/addip-dns/main/install-dns-server.sh && chmod +x install-dns-server.sh && ./install-dns-server.sh
+apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/script-install-access/main/main-dns.sh && chmod +x main-dns.sh && ./main-dns.sh
 ```
 
 
@@ -10,7 +10,12 @@ apt update -y && apt install sudo && sudo apt install -y wget && sudo apt instal
 wget https://raw.githubusercontent.com/vpnlegasi/addip-dns/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
-# Install Main DNS SERVER
+# Install DNS SERVER
 ```
-apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/addip-dns/main/install-main-dns-server.sh && chmod +x install-main-dns-server.sh && ./install-main-dns-server.sh
+apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/script-install-access/main/install-dns.sh && chmod +x install-dns.sh && ./install-dns.sh
+```
+
+# Setup Admin Add DNS
+```
+apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/script-install-access/main/install-dns.sh && chmod +x setup-admin.sh && ./setup-admin.sh
 ```
