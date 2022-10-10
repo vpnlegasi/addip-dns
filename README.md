@@ -1,7 +1,3 @@
-# Install Main DNS SERVER
-```
-apt update -y && apt install sudo && sudo apt install -y wget && sudo apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vpnlegasi/addip-dns/main/main-dns.sh && chmod +x main-dns.sh && ./main-dns.sh
-```
 
 # Install DNS SERVER
 ```
